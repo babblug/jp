@@ -1,0 +1,31 @@
+abstract class Shape
+{
+abstract void findCircle(double r);
+abstract void findTriangle(double b, double h);
+abstract void findRectangle(double w, double h);
+}
+class AreaShape extends Shape
+{
+void findCircle(double r)
+{
+double a=3.14*r*r;
+System.out.println("Area of Circle = "+a);
+}
+void findTriangle(double b, double h)
+{
+double a=0.5*b*h;
+System.out.println("Area of Triangle = "+a);
+}
+void findRectangle(double w, double h)
+{
+double a=w*h;
+System.out.println("Area of Rectangle = "+a);
+}
+public static void main(String[] args)
+{
+AreaShape as=new AreaShape();
+as.findCircle(4.3);
+as.findTriangle(6.1,4.5);
+as.findRectangle(5.5,7.2);
+}
+}
