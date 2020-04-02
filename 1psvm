@@ -1,0 +1,9 @@
+ public : is an Access Modifier, which defines who can access this Method. Public means that this Method will be accessible by any Class (If other Classes are able to access this Class.).
+
+ static methods are the methods, which can be called and executed without creating the objects. Since we want to call main() method without using an object, we should declare main () method as static.
+
+ void : is used to define the Return Type of the Method. It defines what the method can return. Void means the Method will not return any value.
+
+ main: is the name of the Method. This Method name is searched by JVM as a starting point for an application with a particular signature only.
+
+ String args[ ] : is the parameter to the main Method.
