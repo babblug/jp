@@ -1,0 +1,17 @@
+class A
+{
+void fun1()
+{
+System.out.println("function1 called");
+}
+void fun2()
+{
+System.out.println("function2 called");
+}
+public static void main(String args[])
+{
+A obj=new A();
+obj.fun1();
+obj.fun2();
+}
+}
