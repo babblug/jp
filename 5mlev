@@ -1,0 +1,31 @@
+class A
+{
+void showA()
+{
+System.out.println("Method A");
+}
+}
+class B extends A
+{
+void showB()
+{
+System.out.println("Method B");
+}
+}
+class C extends B
+{
+void showC()
+{
+System.out.println("Method C");
+}
+}
+class MultiLevel
+{
+public static void main(String[] args)
+{
+C c1=new C();
+c1.showC();
+c1.showB();
+c1.showA();
+}
+}
